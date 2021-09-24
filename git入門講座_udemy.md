@@ -55,3 +55,13 @@
       git diff --staged -- <file>
       ```
   - rebase
+
+  - remote urlの変更
+    ```
+    git remote set-url origin {new url}
+    ```
+
+  - git branch名の変更
+    ```
+    git branch -m [old branch] [new branch]
+    ```
